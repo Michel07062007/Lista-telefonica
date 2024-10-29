@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Lista Telefonica Virtual</title>
+</head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Lista Telefonica Virtual</h1>
+            </header>
+            <form id="form-tel">
+                <input type="text" id="nome" required placeholder="Nome">
+                <input type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+                <button type="submit" id="botão">cadastrar</button>
+            </form>
+            <table cellspacing = "0">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome do destionatario
+                        </th>
+                        <th>
+                            Nº de Telefone
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>Nome</td>
+                    <td>Numero</td>
+                </tbody>
+            </table>
+        </div>
+        <script src="./Script.js"></script>
+    </body>
+</html>
